@@ -47,3 +47,10 @@
 + Command mode 特性
   + jmp做了跳跃行号的功能，并对非法行号进行鲁棒性判断
   + sub做了全部替换的功能，并会对语句合法性进行鲁棒性判断
+ 
+  最终结果:
+  sub jmp break/scroll history Basic： insert和normal光标到行尾的判断
+  ReadOnly在没修改推出的时候，还是提示了 
+  CodeStyle: 只有一个main文件+一个.h，main文件过长了 
+  在超长行时有明显效率问题，↑↓←→同理 
+  insert mode下一直输入回车不会跨页 
